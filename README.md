@@ -1,4 +1,4 @@
-FastAPI Application for Games CRUD Operations
+## FastAPI Application for Games CRUD Operations
 
 Steps to run the app:
   1. Clone the repository. (git clone https://github.com/pramshu-sharma/AmbikaTech)
