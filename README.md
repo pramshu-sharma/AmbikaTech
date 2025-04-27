@@ -1,4 +1,4 @@
-### FastAPI Application for Games CRUD Operations
+# FastAPI Application for Games CRUD Operations
 
 ## Steps to run the app:
   1. Clone the repository. ```git clone https://github.com/pramshu-sharma/AmbikaTech```
@@ -7,17 +7,17 @@
   4. The strawberry graphQL playground should be available at http://127.0.0.1:8000/gql
 
 ## Notes:
-  # Sample Mutations:
+  ### Sample Mutations:
   Find example mutation queries in mutations.txt. These can be used to create two sample documents.
 
-  # Local Development:
+  ### Local Development:
   If running the app locally without Docker, ensure all active Python server processes are stopped to avoid potential timeout errors.
 
 ## GraphQL Endpoints:
-  # Queries:
+  ### Queries:
     getGame(ObjectId) — Retrieve a single game document by its Object ID.
     getAllGames — Retrieve all game documents.
-  # Mutations:
+  ### Mutations:
     createGame — Create a new game document.
     updateGame(ObjectId) — Update an existing game document by Object ID.
     deleteGame(ObjectId) — Delete a game document by Object ID.
