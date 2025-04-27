@@ -24,14 +24,15 @@
     
 ## Project structure:
 
-  File/Folder	      Purpose
-  __init__.py	      Marks directory as a Python package.
-  db.py	            Database connection setup.
-  main.py	          FastAPI and Strawberry GraphQL server configuration.
-  models.py	        Database models and schema definitions.
-  schema.py	        GraphQL queries, mutations, and resolvers.
-  serializers.py	  Object serialization logic.
-  utils.py	        Additional helper functions/utilities.
+| File             | Purpose                                             |
+| ---------------- | --------------------------------------------------- |
+| `__init__.py`    | Marks directory as a Python package.                |
+| `db.py`          | Database connection setup.                         |
+| `main.py`        | FastAPI and Strawberry GraphQL server configuration. |
+| `models.py`      | Database models and schema definitions.             |
+| `schema.py`      | GraphQL queries, mutations, and resolvers.           |
+| `serializers.py` | Object serialization logic.                        |
+| `utils.py`       | Additional helper functions/utilities.             |
 
 
 ## Improvements and suggestions:
